@@ -1,0 +1,26 @@
+{
+    "name": "hollogram/laravel-stapler",
+    "description": "Easy file upload management for the Laravel Framework.",
+    "keywords": ["laravel", "file", "upload", "S3", "AWS", "stapler", "paperclip"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Travis Bennett",
+            "email": "tandrewbennett@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "hollogram/stapler": "1.2.*",
+        "laravel/framework": "4.*|5.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-4": {
+            "Hollogram\\LaravelStapler\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
