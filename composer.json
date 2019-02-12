@@ -1,5 +1,5 @@
 {
-    "name": "hollogram/laravel-stapler",
+    "name": "hollogram/laravel-stapler2",
     "description": "Easy file upload management for the Laravel Framework.",
     "keywords": ["laravel", "file", "upload", "S3", "AWS", "stapler", "paperclip"],
     "license": "MIT",
@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "hollogram/stapler": "1.2.*",
+        "hollogram/stapler2": "1.0.*",
         "laravel/framework": "4.*|5.*"
     },
     "autoload": {
